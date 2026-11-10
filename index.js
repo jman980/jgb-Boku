@@ -6,7 +6,7 @@ const CONFIG = {
   aternosPort: 19132, 
   botGamertag: 'PLAYDragonBallJ', 
   motd: 'Join here to play on DragonBallzSMP!',
-  renderUrl: 'https://onrender.com' // ⚠️ REPLACE with your actual Render Web Service URL
+  renderUrl: 'https://jgb-boku.onrender.com/' // ⚠️ REPLACE with your actual Render Web Service URL
 };
 
 // 1. RENDER WEB SERVER & PERMANENT KEEP-ALIVE LOOP
