@@ -1,12 +1,4 @@
-{
-  "name": "dragonballz-smp-bot",
-  "version": "1.0.0",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "bedrock-protocol": "^3.26.0"
-  }
+"dependencies": {
+  "bedrock-protocol": "^3.0.0",
+  "socks": "^2.8.3"
 }
