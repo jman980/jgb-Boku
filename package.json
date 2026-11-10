@@ -1,4 +1,13 @@
-"dependencies": {
-  "bedrock-protocol": "^3.0.0",
-  "socks": "^2.8.3"
+{
+  "name": "jgb-boku",
+  "version": "1.0.0",
+  "description": "bot + goku = boku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.0.0",
+    "socks": "^2.8.3"
+  }
 }
