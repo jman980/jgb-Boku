@@ -1,0 +1,19 @@
+services:
+  - type: worker
+    name: jgb-boku-lobby
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    autoDeploy: true
+    envVars:
+      - key: PLAYIT_SECRET
+        sync: false
+      - key: LISTEN_HOST
+        value: 0.0.0.0
+      - key: LISTEN_PORT
+        value: "19132"
+      - key: TARGET_HOST
+        value: DragonBallzSMP.aternos.me
+      - key: TARGET_PORT
+        value: "19132"
